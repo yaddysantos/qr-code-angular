@@ -1,0 +1,51 @@
+.QRclass{
+   border: 1px solid;
+   text-align: center;
+   width: 50%;
+   margin: auto;
+   position: relative;
+   cursor: pointer;
+}
+
+.insideFrint{
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+div .QRclass:hover .insideFrint {
+    vertical-align: middle;
+    opacity: 0.9;
+    background-color: #1bc5b4;
+    transition: all .5s ease-in-out;
+}
+
+#text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: auto;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/***/
+/* The div container */
+.qrcodeImage {
+    display: flex;
+    flex: 1;
+  }
+  
+  /* Add custom styles here */
+  .center {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+  }
